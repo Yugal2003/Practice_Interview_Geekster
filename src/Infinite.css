@@ -1,0 +1,17 @@
+/* .div{
+    display: flex;
+    margin-block: 2rem;
+    border: 1px solid red;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.div1{
+    border: 1px solid red;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}

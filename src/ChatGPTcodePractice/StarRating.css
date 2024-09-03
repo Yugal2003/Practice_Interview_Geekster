@@ -1,0 +1,72 @@
+/* // star rating in react JS by chatGPT
+ */
+/* .star-rating {
+  display: flex;
+  flex-direction: row;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.star {
+  font-size: 30px;
+  transition: background-color 0.2s ease;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star.black {
+  background-color: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+}
+
+.star.gray {
+  background-color: gray;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: gray;
+}
+
+.star-button:hover .star {
+  background-color: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+} */
+
+
+
+
+/* star rating in react JS Interview Challenge - By Imran Shaikh(YOUTUBER)  */
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.star{
+  margin: 10px;
+  font-size: 50px;
+}
+
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on{
+  color: black;
+}
+.off{
+  color: grey;
+}
+button:hover{
+  transform: scale(1.15);
+}
